@@ -16,6 +16,14 @@
 		C1520846287B11B3008218B0 /* ForYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1520845287B11B3008218B0 /* ForYouViewController.swift */; };
 		C1520848287B11C3008218B0 /* MediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1520847287B11C3008218B0 /* MediaViewController.swift */; };
 		C152084A287B11D1008218B0 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1520849287B11D1008218B0 /* SearchViewController.swift */; };
+		C152084E287B15FD008218B0 /* ModelCellAlbums.swift in Sources */ = {isa = PBXBuildFile; fileRef = C152084D287B15FD008218B0 /* ModelCellAlbums.swift */; };
+		C1520850287B160D008218B0 /* ModelCellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C152084F287B160D008218B0 /* ModelCellType.swift */; };
+		C1520854287B16C8008218B0 /* TypesOfMediaFilesViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1520853287B16C8008218B0 /* TypesOfMediaFilesViewCell.swift */; };
+		C1520856287B1DCC008218B0 /* PeopleAndPlacesViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1520855287B1DCC008218B0 /* PeopleAndPlacesViewCell.swift */; };
+		C1520858287B234C008218B0 /* AlbumsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1520857287B234C008218B0 /* AlbumsViewCell.swift */; };
+		C152085A287B245D008218B0 /* HeadLineAlbumsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1520859287B245D008218B0 /* HeadLineAlbumsCell.swift */; };
+		C152085C287B2B28008218B0 /* HeadLinePeopleAndPlacesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C152085B287B2B28008218B0 /* HeadLinePeopleAndPlacesCell.swift */; };
+		C152085E287B2C11008218B0 /* HeadLineTypesOfMediaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C152085D287B2C11008218B0 /* HeadLineTypesOfMediaCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +38,14 @@
 		C1520845287B11B3008218B0 /* ForYouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForYouViewController.swift; sourceTree = "<group>"; };
 		C1520847287B11C3008218B0 /* MediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaViewController.swift; sourceTree = "<group>"; };
 		C1520849287B11D1008218B0 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		C152084D287B15FD008218B0 /* ModelCellAlbums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCellAlbums.swift; sourceTree = "<group>"; };
+		C152084F287B160D008218B0 /* ModelCellType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCellType.swift; sourceTree = "<group>"; };
+		C1520853287B16C8008218B0 /* TypesOfMediaFilesViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypesOfMediaFilesViewCell.swift; sourceTree = "<group>"; };
+		C1520855287B1DCC008218B0 /* PeopleAndPlacesViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleAndPlacesViewCell.swift; sourceTree = "<group>"; };
+		C1520857287B234C008218B0 /* AlbumsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewCell.swift; sourceTree = "<group>"; };
+		C1520859287B245D008218B0 /* HeadLineAlbumsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadLineAlbumsCell.swift; sourceTree = "<group>"; };
+		C152085B287B2B28008218B0 /* HeadLinePeopleAndPlacesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadLinePeopleAndPlacesCell.swift; sourceTree = "<group>"; };
+		C152085D287B2C11008218B0 /* HeadLineTypesOfMediaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadLineTypesOfMediaCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +78,8 @@
 		C152082B287B1075008218B0 /* photoCollection */ = {
 			isa = PBXGroup;
 			children = (
+				C152084B287B15D2008218B0 /* Models */,
+				C152084C287B15DB008218B0 /* View */,
 				C1520840287B112A008218B0 /* ViewControllers */,
 				C1520841287B116B008218B0 /* TabBarController.swift */,
 				C152082C287B1075008218B0 /* AppDelegate.swift */,
@@ -82,6 +100,44 @@
 				C1520849287B11D1008218B0 /* SearchViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C152084B287B15D2008218B0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C152084D287B15FD008218B0 /* ModelCellAlbums.swift */,
+				C152084F287B160D008218B0 /* ModelCellType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C152084C287B15DB008218B0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C1520851287B1695008218B0 /* Cell */,
+				C1520852287B169D008218B0 /* HeadLineCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C1520851287B1695008218B0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C1520857287B234C008218B0 /* AlbumsViewCell.swift */,
+				C1520855287B1DCC008218B0 /* PeopleAndPlacesViewCell.swift */,
+				C1520853287B16C8008218B0 /* TypesOfMediaFilesViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		C1520852287B169D008218B0 /* HeadLineCell */ = {
+			isa = PBXGroup;
+			children = (
+				C1520859287B245D008218B0 /* HeadLineAlbumsCell.swift */,
+				C152085B287B2B28008218B0 /* HeadLinePeopleAndPlacesCell.swift */,
+				C152085D287B2C11008218B0 /* HeadLineTypesOfMediaCell.swift */,
+			);
+			path = HeadLineCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,9 +214,17 @@
 				C152084A287B11D1008218B0 /* SearchViewController.swift in Sources */,
 				C1520848287B11C3008218B0 /* MediaViewController.swift in Sources */,
 				C1520842287B116B008218B0 /* TabBarController.swift in Sources */,
+				C1520854287B16C8008218B0 /* TypesOfMediaFilesViewCell.swift in Sources */,
 				C1520831287B1075008218B0 /* ViewController.swift in Sources */,
+				C1520858287B234C008218B0 /* AlbumsViewCell.swift in Sources */,
+				C152084E287B15FD008218B0 /* ModelCellAlbums.swift in Sources */,
+				C1520856287B1DCC008218B0 /* PeopleAndPlacesViewCell.swift in Sources */,
+				C152085E287B2C11008218B0 /* HeadLineTypesOfMediaCell.swift in Sources */,
 				C1520846287B11B3008218B0 /* ForYouViewController.swift in Sources */,
 				C152082D287B1075008218B0 /* AppDelegate.swift in Sources */,
+				C152085A287B245D008218B0 /* HeadLineAlbumsCell.swift in Sources */,
+				C152085C287B2B28008218B0 /* HeadLinePeopleAndPlacesCell.swift in Sources */,
+				C1520850287B160D008218B0 /* ModelCellType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
